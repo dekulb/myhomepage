@@ -1,0 +1,23 @@
+table	{
+    border-size:
+    /*border-style:dotted;*/
+    border-collapse:collapse;
+    table-layout:fixed; 
+    
+}
+
+.moon8 {
+    width:40px;
+}
+.moon10 {
+    width:100px;
+}
+.moon15 {
+    
+}
+
+.pictures{
+    width:200px;
+    height:calc(width/3);
+    overflow:hidden;
+    }
