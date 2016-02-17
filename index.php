@@ -85,7 +85,6 @@ lineheight: 5
              <li><a href=<?php echo PICTURE_PAGE; ?> class="button animsition-link">ギャラリー</a></li>
              <li><a href=<?php echo WEBSTUDY_PAGE; ?> class="button animsition-link">Web開発勉強</a></li>
              <li><a href=<?php echo ASK_PAGE; ?> class="button animsition-link">問い合わせ</a></li>
-
           </ul>
         </div>
       </div>

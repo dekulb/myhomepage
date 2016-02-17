@@ -33,15 +33,14 @@
            <div class="row">
         <div class="large-12 columns">
           <ul class="button-group">
-              <li><a href="index.html" class="button animsition-link">トップ</a></li>
-             <li><a href="blog.html" class="button animsition-link">活動情報</a></li>
-             <li><a href="picture.html" class="button animsition-link">ギャラリー</a></li>
-             <li><a href="webstudy.html" class="button animsition-link">Web開発勉強</a></li>
-             <li><a href="ask.html" class="button animsition-link">問い合わせ</a></li>
+              <li><a href=<?php echo TOP_PAGE; ?> class="button animsition-link">トップ</a></li>
+             <li><a href=<?php echo BLOG_PAGE; ?> class="button animsition-link">活動情報</a></li>
+             <li><a href=<?php echo PICTURE_PAGE; ?> class="button animsition-link">ギャラリー</a></li>
+             <li><a href=<?php echo WEBSTUDY_PAGE; ?> class="button animsition-link">Web開発勉強</a></li>
+             <li><a href=<?php echo ASK_PAGE; ?> class="button animsition-link">問い合わせ</a></li>
           </ul>
         </div>
-      </div>       
-
+      </div>
 
       <div class="row animsition">
         <div class="large-12 columns">
@@ -79,25 +78,25 @@
       </div>
 
 
-    <footer class="row">
+      <footer class="row">
         <div class="large-12 columns">
-        <hr/>
-        <div class="row">
-        <div class="large-6 columns">
+          <hr/>
+          <div class="row">
+            <div class="large-6 columns">
             <p>© 2015 DEKURUBOU. All rights reserved</p>
-        </div>
+            </div>
             <div class="large-6 columns">
               <ul class="inline-list right">
-            <li><a class="animsition-link" href="index.html">トップ</a></li>
-            <li><a class="animsition-link" href="blog.html">活動情報</a></li>
-            <li><a class="animsition-link" href="picture.html">ギャラリー</a></li>
-            <li><a class="animsition-link" href="webstudy.html">Web開発勉強</a></li>
-            <li><a class="animsition-link" href="ask.html">問い合わせ</a></li>
+            <li><a class="animsition-link" href=<?php echo TOP_PAGE; ?>>トップ</a></li>
+            <li><a class="animsition-link" href=<?php echo BLOG_PAGE; ?>>活動情報</a></li>
+            <li><a class="animsition-link" href=<?php echo PICTURE_PAGE; ?>>ギャラリー</a></li>
+            <li><a class="animsition-link" href=<?php echo WEB_STUDY_PAGE; ?>>Web開発勉強</a></li>
+            <li><a class="animsition-link" href=<?php echo ASK_PAGE; ?>>問い合わせ</a></li>
               </ul>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
-    </footer>
+      </footer>
     
     
     <script src="js/foundation.min.js"></script>
