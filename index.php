@@ -188,7 +188,7 @@ text-shadow:
             <li><a class="animsition-link" href=<?php echo TOP_PAGE; ?>>トップ</a></li>
             <li><a class="animsition-link" href=<?php echo BLOG_PAGE; ?>>活動情報</a></li>
             <li><a class="animsition-link" href=<?php echo PICTURE_PAGE; ?>>ギャラリー</a></li>
-            <li><a class="animsition-link" href=<?php echo WEB_STUDY_PAGE; ?>>Web開発勉強</a></li>
+            <li><a class="animsition-link" href=<?php echo WEBSTUDY_PAGE; ?>>Web開発勉強</a></li>
             <li><a class="animsition-link" href=<?php echo ASK_PAGE; ?>>問い合わせ</a></li>
               </ul>
             </div>
